@@ -1,0 +1,45 @@
+/*=============================================
+=            Default CSS Variables            =
+=============================================*/
+
+/**
+ *
+ * ! Default CSS Variables
+ * As SCSS is not fully compatible with CSS,
+ * We need embed this variable
+ */
+
+:root {
+    --ds1-body-text-color: #{$dark};
+    --ds1-body-bg-color: #{$white};
+
+    --ds1-btn-primary-color: #{$white};
+    --ds1-btn-primary-bg: #{$green};
+    --ds1-btn-primary-bg-hover: #{$green-light};
+
+    --ds1-btn-secondary-color: #{$white};
+    --ds1-btn-secondary-bg: #{$dark};
+
+    --ds1-form-color: #{$dark};
+    --ds1-form-bg: #{$white};
+    --ds1-form-error-color: #{$red};
+    --ds1-form-error-border: #{$red};
+    --ds1-form-border-focus-color: #{$green};
+
+    --ds1-body-font-size: #{$fs-base};
+    --ds1-body-font-weight: #{$fw-normal}; 
+
+    --ds1-h1-font-size: #{$h-1};
+    --ds1-h2-font-size: #{$h-2};
+    --ds1-h3-font-size: #{$h-3};
+    --ds1-h4-font-size: #{$h-4};
+    --ds1-h5-font-size: #{$h-5};
+    --ds1-h6-font-size: #{$h-6};
+
+    --ds1-h1-font-weight: #{$fw-medium};
+    --ds1-h2-font-weight: #{$fw-medium};
+    --ds1-h3-font-weight: #{$fw-medium};
+    --ds1-h4-font-weight: #{$fw-normal};
+    --ds1-h5-font-weight: #{$fw-normal};
+    --ds1-h6-font-weight: #{$fw-light};
+}

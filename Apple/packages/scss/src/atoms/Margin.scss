@@ -1,0 +1,15 @@
+@import "../foundation/all";
+
+$sides: left, right, top, bottom;
+
+@each $space, $value in $spacing {
+    .ds1-margin-#{$space} {
+        margin: $value;
+    }
+}
+
+@each $side, $space, $value in $sides {
+    .ds1-margin-#{$side}-#{$space} {
+        margin-#{$side}: $value;
+    }
+}

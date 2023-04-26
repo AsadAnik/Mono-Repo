@@ -1,0 +1,195 @@
+/*=============================================
+=            VARIABLES            =
+=============================================*/
+/**
+ *
+ * TABLE OF CONTENTS
+ *
+ */
+/**
+  *
+  * COLORS
+  * Brand Colors...................................These are the main brand colors, They wlll be used the most
+  * Neutral Colors.................................White and Black, Gray Scale, Secondary Colors
+  * Utility Colors.................................Other Colors to represent states: info, warning, success etc.
+  */
+/**
+    *
+    * TYPOGRAPHY
+    * Font Families................................The fonts used in the design system
+    * Font Weights.................................Font Weights
+    * Sizes........................................Font Sizing for body text, paragraphs, inputs
+    * Heading Sizes................................Font Sizing for page headings
+    */
+/**
+    *
+    * BREAKPOINTS
+    * Breakpoints..................................Global responsive breakpoints definitions
+    *
+
+/**
+     *
+     * SPACING
+     * Spacing.....................................Global fixed set of spacing variables
+     */
+/**
+    *
+    * SHADOW
+    * Shadows.......................................Global fixed set of Shadow
+    */
+/*=============================================
+=            COLORS            =
+=============================================*/
+/* Neutral Colors */
+/* Utility Colors */
+/*=====  End of COLORS  ======*/
+/*=============================================
+=            TYPOGRAPHY            =
+=============================================*/
+/**
+ *
+ * 1) The playfair font, We'll use this for headings mostly.
+ *        https://fonts.google.com/specimen/Playfair+Display
+ * 
+ * 2) The raleway font. We'll use this for the body text.
+ *        https://fonts.google.com/specimen/Raleway
+ */
+/* Font Family */
+/* 1 */
+/* 2 */
+/* Font Size */
+/* Font Size Dynamic Map to Loop Throw for font-sizes */
+/* Heading Font Sizes */
+/* Heading Font Size Dynamic Map to Loop Throw for font-sizes */
+/* Font Weights */
+/*=====  End of TYPOGRAPHY  ======*/
+/*=============================================
+=            BREAKPOINTS            =
+=============================================*/
+/*=====  End of BREAKPOINTS  ======*/
+/*=============================================
+=            SPACING            =
+=============================================*/
+/*=====  End of SPACING  ======*/
+/*=============================================
+=            SHADOW            =
+=============================================*/
+/*=====  End of SHADOW  ======*/
+/*=============================================
+=            FOUNDATION - COLORS            =
+=============================================*/
+/**
+ *
+ * This file defines the actual colors that will be used for styling. they will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and developers can override this
+ * with their own variables.
+ */
+/**
+  *  ========== [ Instructions ] ===========
+  * Defining a SCSS Variable
+  * 1. define a name
+  * 2. value of the variable will be a css var,
+  *   so the consumer of the design system won't have to use scss
+  * 3. default value will be a SCSS variable that we declared previously
+  * 4. added !default flag so consumer of the design system can override the SCSS variable
+  * 5. the --dse prefix of the variable name is a namespace (project name)
+  * [dse - design system for engineering]
+  */
+/*=============================================
+  =            Global Text Colors            =
+  =============================================*/
+/*=====  End of Global Text Colors  ======*/
+/*=============================================
+=            Buttons            =
+=============================================*/
+/*=====  End of Buttons  ======*/
+/*=============================================
+=            Forms            =
+=============================================*/
+/*=====  End of Forms  ======*/
+/*=====  End of FOUNDATION - COLORS  ======*/
+/*=============================================
+=            FOUNDATION - TYPOGRAPHY            =
+=============================================*/
+/**
+ *
+ * This file defines the actual colors that will be used for styling. they will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and developers can override this
+ * with their own variables.
+ */
+/**
+  *  ========== [ Instructions ] ===========
+  * Defining a SCSS Variable
+  * 1. define a name
+  * 2. value of the variable will be a css var,
+  *   so the consumer of the design system won't have to use scss
+  * 3. default value will be a SCSS variable that we declared previously
+  * 4. added !default flag so consumer of the design system can override the SCSS variable
+  * 5. the --dse prefix of the variable name is a namespace (project name)
+  * [dse - design system for engineering]
+  */
+/*=============================================
+  =            Body font family            =
+  =============================================*/
+/*=====  End of Body font family  ======*/
+/*=============================================
+  =            Body font sizes            =
+  =============================================*/
+/*=====  End of Body font sizes  ======*/
+/*=============================================
+=            Heading font sizes            =
+=============================================*/
+/*=====  End of Heading font sizes  ======*/
+/*=============================================
+=            Heading font weights            =
+=============================================*/
+/*=====  End of Heading font weights  ======*/
+/*=====  End of FOUNDATION - COLORS  ======*/
+/*=============================================
+=            Mixins            =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components
+ */
+/*=====  End of Mixins  ======*/
+.ds1-margin-none {
+  margin: 0;
+}
+
+.ds1-margin-xxxs {
+  margin: 0.25rem;
+}
+
+.ds1-margin-xxs {
+  margin: 0.5rem;
+}
+
+.ds1-margin-xs {
+  margin: 0.75rem;
+}
+
+.ds1-margin-sm {
+  margin: 1rem;
+}
+
+.ds1-margin-md {
+  margin: 1.5rem;
+}
+
+.ds1-margin-lg {
+  margin: 2rem;
+}
+
+.ds1-margin-xl {
+  margin: 3rem;
+}
+
+.ds1-margin-xxl {
+  margin: 4.5rem;
+}
+
+.ds1-margin-xxxl {
+  margin: 6rem;
+}
