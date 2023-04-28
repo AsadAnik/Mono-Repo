@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "node ./src/scripts/build.js"
+    "build": "node ./src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "dependencies": {
+    "nodemon": "^2.0.22",
     "sass": "^1.62.1"
   }
 }
