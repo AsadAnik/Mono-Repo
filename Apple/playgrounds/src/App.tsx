@@ -1,5 +1,4 @@
 import { Button } from '@apple/react/lib';
-import '@apple/scss/lib/Button.css';
 
 const App = () => {
   return (
