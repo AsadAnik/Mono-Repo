@@ -9,5 +9,5 @@ module.exports = {
         preserveModules: true,
     },
     plugins: [TS()],
-    external: ['react'],
+    external: ['react', '@apple/scss/lib/Button.css'],
 };

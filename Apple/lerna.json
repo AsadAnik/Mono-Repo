@@ -3,7 +3,8 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
   "packages": [
-    "packages/*"
+    "packages/*",
+    "playgrounds/*"
   ],
   "npmClient": "yarn",
   "stream": true
