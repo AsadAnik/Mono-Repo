@@ -1,0 +1,11 @@
+@import '../foundation/all';
+
+@each $key, $value in $spacing {
+    .dse-width-#{$key} {
+        width: $value;
+    }
+
+    .dse-height-#{$key} {
+        height: $value;
+    }
+}

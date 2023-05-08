@@ -1,4 +1,4 @@
-import { Button, Color } from '@apple/react/lib';
+import { Button, Color, Text } from '@apple/react/lib';
 
 const App = () => {
   return (
@@ -12,7 +12,9 @@ const App = () => {
         Hello Click
       </Button>
 
-      <Color hexCode="#000" height="10rem" width="10rem" />
+      <Color hexCode="pink" height="xxxl" width="xxxl" />
+
+      <Text size="xl">Hello World</Text>
     </>
   );
 };
